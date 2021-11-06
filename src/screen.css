@@ -1,19 +1,12 @@
 /* Our CSS file. */
-
-
-.container, .content {
-    width: 100%;
-    }
-    .content{
-        display: inline-block;
-    }
-    .section{
-        width:50%;
-        display: inline-block;
-    }
-    .align-top{
-        vertical-align:top
-    }
-    .align-vertical-center{
-        vertical-align: middle !important;
-    }
+html,body
+ {
+    padding:0;
+    margin:0;
+    height:100%;
+  }
+div {position: fixed;width: 50%;height: 50%;}
+.part1 {top:0; left:0}
+.part2 { top:0; left:50%}
+.part3 { top:50%; left:0}    
+.part4 {top:50%; left:50%}
